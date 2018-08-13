@@ -1,0 +1,3 @@
+C:\Users\fernando\Desktop\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
+E:\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
+C:\Users\Nicolle\Documents\Analisis y Diseño\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
