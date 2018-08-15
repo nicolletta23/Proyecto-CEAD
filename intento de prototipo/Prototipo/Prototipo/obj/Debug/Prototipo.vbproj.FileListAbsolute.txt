@@ -1,3 +1,20 @@
 C:\Users\fernando\Desktop\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
 E:\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
 C:\Users\Nicolle\Documents\Analisis y Diseño\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.vbprojResolveAssemblyReference.cache
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Matricula.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_login.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_cambio_contraseña.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_registro_alumnos.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_registro_Personal.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_registro_usuarios.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.Resources.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.vbproj.GenerateResource.Cache
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.xml
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.pdb
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.xml
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.exe
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.pdb
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_principal.resources
