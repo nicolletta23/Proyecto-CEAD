@@ -12,14 +12,20 @@
     End Sub
 
     Private Sub OK_Click(sender As Object, e As EventArgs) Handles OK.Click
-        Dim U, P As String
-        U = Me.textusuario.Text
-        P = Me.textclave.Text
-
-        If accede_usuario(U, P) = True Then
-            My.Forms.frm_principal.Show()
+        If Me.textusuario.Text.Length <= 0 Then
+            MsgBox("Debe agregar un usuario!", MsgBoxStyle.Exclamation)
+        ElseIf Me.textclave.Text.Length <= 0
+            MsgBox("Debe ingresar una contraseña!", MsgBoxStyle.Exclamation)
         Else
-            MsgBox("Usuario no existe!", MsgBoxStyle.Exclamation)
+            Dim U, P As String
+            U = Me.textusuario.Text
+            P = Me.textclave.Text
+
+            If accede_usuario(U, P) = True Then
+                My.Forms.frm_principal.Show()
+            Else
+                MsgBox("Usuario no existe!", MsgBoxStyle.Exclamation)
+            End If
         End If
 
     End Sub

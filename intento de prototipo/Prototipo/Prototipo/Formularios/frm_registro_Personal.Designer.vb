@@ -22,41 +22,43 @@ Partial Class frm_registro_Personal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.textidentidad = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.textusuario = New System.Windows.Forms.TextBox()
+        Me.textsegundoapellido = New System.Windows.Forms.TextBox()
+        Me.textsegundonombre = New System.Windows.Forms.TextBox()
+        Me.textprimerapellido = New System.Windows.Forms.TextBox()
+        Me.textprimernombre = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.texttelefono = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.textemail = New System.Windows.Forms.TextBox()
+        Me.rtbdireccion = New System.Windows.Forms.RichTextBox()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.radmasculino = New System.Windows.Forms.RadioButton()
+        Me.radfemenino = New System.Windows.Forms.RadioButton()
+        Me.cboestadocivil = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.cbodepartamento = New System.Windows.Forms.ComboBox()
+        Me.btnAgregar = New System.Windows.Forms.Button()
+        Me.btnCancelar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'TextBox4
+        'textidentidad
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.TextBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox4.Location = New System.Drawing.Point(202, 168)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(177, 20)
-        Me.TextBox4.TabIndex = 50
+        Me.textidentidad.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.textidentidad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.textidentidad.Location = New System.Drawing.Point(202, 168)
+        Me.textidentidad.Name = "textidentidad"
+        Me.textidentidad.Size = New System.Drawing.Size(177, 20)
+        Me.textidentidad.TabIndex = 50
         '
         'Label6
         '
@@ -69,41 +71,41 @@ Partial Class frm_registro_Personal
         Me.Label6.TabIndex = 49
         Me.Label6.Text = "Número de Identidad:"
         '
-        'TextBox3
+        'textsegundoapellido
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.TextBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox3.Location = New System.Drawing.Point(455, 115)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(148, 20)
-        Me.TextBox3.TabIndex = 48
+        Me.textsegundoapellido.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.textsegundoapellido.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.textsegundoapellido.Location = New System.Drawing.Point(455, 115)
+        Me.textsegundoapellido.Name = "textsegundoapellido"
+        Me.textsegundoapellido.Size = New System.Drawing.Size(148, 20)
+        Me.textsegundoapellido.TabIndex = 48
         '
-        'TextBox2
+        'textsegundonombre
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.TextBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox2.Location = New System.Drawing.Point(455, 68)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(148, 20)
-        Me.TextBox2.TabIndex = 47
+        Me.textsegundonombre.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.textsegundonombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.textsegundonombre.Location = New System.Drawing.Point(455, 68)
+        Me.textsegundonombre.Name = "textsegundonombre"
+        Me.textsegundonombre.Size = New System.Drawing.Size(148, 20)
+        Me.textsegundonombre.TabIndex = 47
         '
-        'TextBox1
+        'textprimerapellido
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox1.Location = New System.Drawing.Point(168, 110)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(148, 20)
-        Me.TextBox1.TabIndex = 46
+        Me.textprimerapellido.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.textprimerapellido.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.textprimerapellido.Location = New System.Drawing.Point(168, 110)
+        Me.textprimerapellido.Name = "textprimerapellido"
+        Me.textprimerapellido.Size = New System.Drawing.Size(148, 20)
+        Me.textprimerapellido.TabIndex = 46
         '
-        'textusuario
+        'textprimernombre
         '
-        Me.textusuario.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.textusuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.textusuario.Location = New System.Drawing.Point(168, 68)
-        Me.textusuario.Name = "textusuario"
-        Me.textusuario.Size = New System.Drawing.Size(148, 20)
-        Me.textusuario.TabIndex = 45
+        Me.textprimernombre.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.textprimernombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.textprimernombre.Location = New System.Drawing.Point(168, 68)
+        Me.textprimernombre.Name = "textprimernombre"
+        Me.textprimernombre.Size = New System.Drawing.Size(148, 20)
+        Me.textprimernombre.TabIndex = 45
         '
         'Label5
         '
@@ -172,14 +174,14 @@ Partial Class frm_registro_Personal
         Me.Label9.TabIndex = 53
         Me.Label9.Text = "Telefono:"
         '
-        'TextBox5
+        'texttelefono
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.TextBox5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox5.Location = New System.Drawing.Point(139, 203)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(150, 20)
-        Me.TextBox5.TabIndex = 54
+        Me.texttelefono.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.texttelefono.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.texttelefono.Location = New System.Drawing.Point(139, 203)
+        Me.texttelefono.Name = "texttelefono"
+        Me.texttelefono.Size = New System.Drawing.Size(150, 20)
+        Me.texttelefono.TabIndex = 54
         '
         'Label10
         '
@@ -193,22 +195,22 @@ Partial Class frm_registro_Personal
         Me.Label10.Text = "Email"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'TextBox6
+        'textemail
         '
-        Me.TextBox6.BackColor = System.Drawing.Color.DarkTurquoise
-        Me.TextBox6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox6.Location = New System.Drawing.Point(391, 208)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox6.TabIndex = 56
+        Me.textemail.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.textemail.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.textemail.Location = New System.Drawing.Point(391, 208)
+        Me.textemail.Name = "textemail"
+        Me.textemail.Size = New System.Drawing.Size(212, 20)
+        Me.textemail.TabIndex = 56
         '
-        'RichTextBox1
+        'rtbdireccion
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(139, 390)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(435, 70)
-        Me.RichTextBox1.TabIndex = 58
-        Me.RichTextBox1.Text = ""
+        Me.rtbdireccion.Location = New System.Drawing.Point(139, 390)
+        Me.rtbdireccion.Name = "rtbdireccion"
+        Me.rtbdireccion.Size = New System.Drawing.Size(435, 70)
+        Me.rtbdireccion.TabIndex = 58
+        Me.rtbdireccion.Text = ""
         '
         'Label13
         '
@@ -234,8 +236,8 @@ Partial Class frm_registro_Personal
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.radmasculino)
+        Me.GroupBox1.Controls.Add(Me.radfemenino)
         Me.GroupBox1.Location = New System.Drawing.Point(60, 243)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(232, 67)
@@ -243,36 +245,36 @@ Partial Class frm_registro_Personal
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Genero"
         '
-        'RadioButton2
+        'radmasculino
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(131, 28)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(73, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Masculino"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.radmasculino.AutoSize = True
+        Me.radmasculino.Location = New System.Drawing.Point(131, 28)
+        Me.radmasculino.Name = "radmasculino"
+        Me.radmasculino.Size = New System.Drawing.Size(73, 17)
+        Me.radmasculino.TabIndex = 1
+        Me.radmasculino.TabStop = True
+        Me.radmasculino.Text = "Masculino"
+        Me.radmasculino.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'radfemenino
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(19, 28)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(71, 17)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Femenino"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.radfemenino.AutoSize = True
+        Me.radfemenino.Location = New System.Drawing.Point(19, 28)
+        Me.radfemenino.Name = "radfemenino"
+        Me.radfemenino.Size = New System.Drawing.Size(71, 17)
+        Me.radfemenino.TabIndex = 0
+        Me.radfemenino.TabStop = True
+        Me.radfemenino.Text = "Femenino"
+        Me.radfemenino.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'cboestadocivil
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Soltero", "Casado", "Viudo", "Divorciado", "Union Libre"})
-        Me.ComboBox1.Location = New System.Drawing.Point(156, 340)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 59
+        Me.cboestadocivil.FormattingEnabled = True
+        Me.cboestadocivil.Items.AddRange(New Object() {"Soltero", "Casado", "Viudo", "Divorciado", "Union Libre"})
+        Me.cboestadocivil.Location = New System.Drawing.Point(156, 340)
+        Me.cboestadocivil.Name = "cboestadocivil"
+        Me.cboestadocivil.Size = New System.Drawing.Size(121, 21)
+        Me.cboestadocivil.TabIndex = 59
         '
         'Label8
         '
@@ -286,14 +288,32 @@ Partial Class frm_registro_Personal
         Me.Label8.Text = "Departamento"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'ComboBox2
+        'cbodepartamento
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Direccion", "Administracion", "Docencia"})
-        Me.ComboBox2.Location = New System.Drawing.Point(455, 271)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 63
+        Me.cbodepartamento.FormattingEnabled = True
+        Me.cbodepartamento.Items.AddRange(New Object() {"Seleccione...", "Direccion", "Administracion", "Docencia"})
+        Me.cbodepartamento.Location = New System.Drawing.Point(455, 271)
+        Me.cbodepartamento.Name = "cbodepartamento"
+        Me.cbodepartamento.Size = New System.Drawing.Size(121, 21)
+        Me.cbodepartamento.TabIndex = 63
+        '
+        'btnAgregar
+        '
+        Me.btnAgregar.Location = New System.Drawing.Point(178, 489)
+        Me.btnAgregar.Name = "btnAgregar"
+        Me.btnAgregar.Size = New System.Drawing.Size(86, 29)
+        Me.btnAgregar.TabIndex = 64
+        Me.btnAgregar.Text = "Agregar"
+        Me.btnAgregar.UseVisualStyleBackColor = True
+        '
+        'btnCancelar
+        '
+        Me.btnCancelar.Location = New System.Drawing.Point(313, 489)
+        Me.btnCancelar.Name = "btnCancelar"
+        Me.btnCancelar.Size = New System.Drawing.Size(86, 29)
+        Me.btnCancelar.TabIndex = 65
+        Me.btnCancelar.Text = "Cancelar"
+        Me.btnCancelar.UseVisualStyleBackColor = True
         '
         'frm_registro_Personal
         '
@@ -301,23 +321,25 @@ Partial Class frm_registro_Personal
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.ClientSize = New System.Drawing.Size(712, 539)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.btnCancelar)
+        Me.Controls.Add(Me.btnAgregar)
+        Me.Controls.Add(Me.cbodepartamento)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.cboestadocivil)
+        Me.Controls.Add(Me.rtbdireccion)
         Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.textemail)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.texttelefono)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.textidentidad)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.textusuario)
+        Me.Controls.Add(Me.textsegundoapellido)
+        Me.Controls.Add(Me.textsegundonombre)
+        Me.Controls.Add(Me.textprimerapellido)
+        Me.Controls.Add(Me.textprimernombre)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
@@ -331,28 +353,30 @@ Partial Class frm_registro_Personal
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents textidentidad As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents textusuario As TextBox
+    Friend WithEvents textsegundoapellido As TextBox
+    Friend WithEvents textsegundonombre As TextBox
+    Friend WithEvents textprimerapellido As TextBox
+    Friend WithEvents textprimernombre As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents texttelefono As TextBox
     Friend WithEvents Label10 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents textemail As TextBox
+    Friend WithEvents rtbdireccion As RichTextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents radmasculino As RadioButton
+    Friend WithEvents radfemenino As RadioButton
+    Friend WithEvents cboestadocivil As ComboBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents cbodepartamento As ComboBox
+    Friend WithEvents btnAgregar As Button
+    Friend WithEvents btnCancelar As Button
 End Class

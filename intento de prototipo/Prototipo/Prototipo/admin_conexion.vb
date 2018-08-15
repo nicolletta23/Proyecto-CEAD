@@ -57,4 +57,23 @@ Module admin_conexion
         End Try
         Exit Function
     End Function
+
+
+    Public Sub insertapersonal(ByVal PN As String, ByVal SN As String, ByVal PA As String, ByVal SA As String, ByVal T As String, ByVal E As String, ByVal C As String, ByVal G As String, ByVal EC As String, ByVal D As Integer, ByVal DIR As String)
+        Try
+            Dim comando As New SqlCommand
+
+            comando.CommandType = CommandType.Text
+            comando.CommandText = "insert into Personal(PrimerNombre, SegundoNombre, PrimerApellido,[Segundo Apellido], Telefono, Email,Cedula, genero, EstadoCivil, Id_Departamentos,Id_Direcciones) values('" & PN & "', '" & SN & "', '" & PA & "', '" & SA & "', " & T & " , '" & E & "', " & C & ", '" & G & "', '" & EC & "'," & D & ",'" & DIR & "');"
+            comando.Connection = conexion
+
+            comando.ExecuteNonQuery()
+            MsgBox("Personal agregado Exitosamente!!!", MsgBoxStyle.Information)
+
+
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical)
+
+        End Try
+    End Sub
 End Module
