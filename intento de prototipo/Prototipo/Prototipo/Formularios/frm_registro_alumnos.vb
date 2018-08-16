@@ -1,6 +1,9 @@
 ﻿Public Class frm_registro_alumnos
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
+
+        'keren was here
+
     End Sub
 
     Private Sub Label10_Click(sender As Object, e As EventArgs)
