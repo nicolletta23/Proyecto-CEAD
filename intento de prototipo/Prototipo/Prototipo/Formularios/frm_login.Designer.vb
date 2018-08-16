@@ -62,7 +62,7 @@ Partial Class frm_login
         '
         'OK
         '
-        Me.OK.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.OK.BackColor = System.Drawing.Color.YellowGreen
         Me.OK.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OK.ForeColor = System.Drawing.Color.DarkBlue
         Me.OK.Location = New System.Drawing.Point(125, 262)
@@ -144,6 +144,7 @@ Partial Class frm_login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.BackgroundImage = Global.Prototipo.My.Resources.Resources.academia
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(472, 353)

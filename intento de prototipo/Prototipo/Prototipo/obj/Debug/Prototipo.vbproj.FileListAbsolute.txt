@@ -18,3 +18,4 @@ C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de pro
 C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.exe
 C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.pdb
 C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_principal.resources
+C:\Users\PC\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
