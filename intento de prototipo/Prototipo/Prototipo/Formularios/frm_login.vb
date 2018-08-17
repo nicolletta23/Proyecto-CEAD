@@ -5,7 +5,7 @@
 
     Private Sub frm_login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'CONEXION DE NICOLLE
-        conectar("NICOLLETTA", "CEAD")
+        'conectar("WIN", "CEAD")
 
         'CONEXION DE LAS DEMAS
         'conectar("AQUI DEBEN PONER NOMBRE DE SU SERVIDOR", "CEAD")
@@ -22,7 +22,7 @@
             P = Me.textclave.Text
 
             If accede_usuario(U, P) = True Then
-                My.Forms.frm_principal.Show()
+                My.Forms.MDI.Show()
             Else
                 MsgBox("Usuario no existe!", MsgBoxStyle.Exclamation)
             End If

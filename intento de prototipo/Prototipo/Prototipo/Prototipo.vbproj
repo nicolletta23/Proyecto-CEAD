@@ -88,10 +88,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin_conexion.vb" />
+    <Compile Include="Formularios\frm_Clases.Designer.vb">
+      <DependentUpon>frm_Clases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frm_Clases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_genero.Designer.vb">
+      <DependentUpon>frm_genero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frm_genero.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\frm_Matricula.Designer.vb">
       <DependentUpon>frm_Matricula.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frm_Matricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_Modalidad.Designer.vb">
+      <DependentUpon>frm_Modalidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frm_Modalidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frm_Parametros.Designer.vb">
+      <DependentUpon>frm_Parametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frm_Parametros.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\frm_principal.Designer.vb">
@@ -131,7 +155,19 @@
     <Compile Include="Formularios\frm_cambio_contraseña.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Interface1.vb" />
+    <Compile Include="Formularios\frm_Secciones.Designer.vb">
+      <DependentUpon>frm_Secciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frm_Secciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\MDI.Designer.vb">
+      <DependentUpon>MDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\MDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Modulo.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -149,6 +185,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularios\frm_Clases.resx">
+      <DependentUpon>frm_Clases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_genero.resx">
+      <DependentUpon>frm_genero.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Matricula.resx">
       <DependentUpon>frm_Matricula.vb</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +199,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_cambio_contraseña.resx">
       <DependentUpon>frm_cambio_contraseña.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_Modalidad.resx">
+      <DependentUpon>frm_Modalidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_Parametros.resx">
+      <DependentUpon>frm_Parametros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_principal.resx">
       <DependentUpon>frm_principal.vb</DependentUpon>
@@ -169,6 +217,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_registro_usuarios.resx">
       <DependentUpon>frm_registro_usuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frm_Secciones.resx">
+      <DependentUpon>frm_Secciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\MDI.resx">
+      <DependentUpon>MDI.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
