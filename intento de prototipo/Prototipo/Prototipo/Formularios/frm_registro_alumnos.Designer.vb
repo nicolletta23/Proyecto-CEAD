@@ -148,7 +148,7 @@ Partial Class frm_registro_alumnos
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(23, 275)
+        Me.Label6.Location = New System.Drawing.Point(31, 242)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(146, 15)
         Me.Label6.TabIndex = 36
@@ -158,7 +158,7 @@ Partial Class frm_registro_alumnos
         '
         Me.TextBox4.BackColor = System.Drawing.Color.DarkTurquoise
         Me.TextBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox4.Location = New System.Drawing.Point(168, 270)
+        Me.TextBox4.Location = New System.Drawing.Point(176, 237)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(177, 20)
         Me.TextBox4.TabIndex = 37
@@ -168,7 +168,7 @@ Partial Class frm_registro_alumnos
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(358, 265)
+        Me.Label7.Location = New System.Drawing.Point(366, 232)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(163, 15)
         Me.Label7.TabIndex = 38
@@ -179,7 +179,7 @@ Partial Class frm_registro_alumnos
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(349, 280)
+        Me.Label8.Location = New System.Drawing.Point(357, 247)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(182, 15)
         Me.Label8.TabIndex = 39
@@ -287,7 +287,7 @@ Partial Class frm_registro_alumnos
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(135, 454)
+        Me.RichTextBox1.Location = New System.Drawing.Point(193, 454)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(338, 70)
         Me.RichTextBox1.TabIndex = 53
