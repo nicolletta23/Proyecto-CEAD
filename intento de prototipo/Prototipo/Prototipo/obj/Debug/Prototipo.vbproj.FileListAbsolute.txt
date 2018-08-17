@@ -43,3 +43,7 @@ C:\Users\Keren\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Protot
 C:\Users\Keren\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Secciones.resources
 C:\Users\Keren\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_genero.resources
 C:\Users\Keren\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Parametros.resources
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.exe
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.xml
+C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.pdb
