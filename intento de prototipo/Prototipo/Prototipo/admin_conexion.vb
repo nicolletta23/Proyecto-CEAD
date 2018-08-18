@@ -13,6 +13,11 @@ Module admin_conexion
     Public idusuario As String
     Public nombreusuario As String
 
+    Public adapterpersonal As SqlDataAdapter
+    Public builderpersonal As SqlCommandBuilder
+    Public tablapersonal As DataTable
+
+
 
     Public Sub conectar(ByVal H As String, ByVal BD As String)
         Try
@@ -58,6 +63,21 @@ Module admin_conexion
         Exit Function
     End Function
 
+
+    Public Sub carga_personal()
+        Try
+            ' Dim cadena As String = "select id_Empleado, PrimerNombre + ' ' + SegundoNombre +' ' + PrimerApellido + ' ' + [Segundo Apellido] as nombrecompleto from Personal;"
+            Dim cadena As String = "select id_Empleado, PrimerNombre + ' ' + SegundoNombre +' ' + PrimerApellido + ' ' + [Segundo Apellido] as nombrecompleto from Personal where not exists (select Id_personal from Usuarios where personal.Id_Empleado=Usuarios.Id_personal);"
+            adapterpersonal = New SqlDataAdapter(cadena, conexion)
+            tablapersonal = New DataTable("Personal")
+            adapterpersonal.Fill(tablapersonal)
+
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+
+        End Try
+    End Sub
 
 
 End Module

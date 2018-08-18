@@ -2,6 +2,10 @@
     Public genero As String
     Private Sub frm_registro_Personal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.cbodepartamento.SelectedIndex = 0
+
+        Me.MdiParent = My.Forms.MDI
+
+
     End Sub
 
     Private Sub btnAgregar_Click(sender As Object, e As EventArgs) Handles btnAgregar.Click
@@ -18,7 +22,7 @@
                 MsgBox("Agregue un numero de telefono valido!", MsgBoxStyle.Exclamation)
             Else
                 'AQUI LLAMO AL METODO
-                insertapersonal(Me.textprimernombre.Text, Me.textsegundoapellido.Text, Me.textprimerapellido.Text, Me.textsegundoapellido.Text, Me.texttelefono.Text, Me.textemail.Text, Me.textidentidad.Text, genero, Me.cboestadocivil.Text, Me.cbodepartamento.SelectedIndex, Me.rtbdireccion.Text)
+                insertapersonal(Me.textprimernombre.Text, Me.textsegundonombre.Text, Me.textprimerapellido.Text, Me.textsegundoapellido.Text, Me.texttelefono.Text, Me.textemail.Text, Me.textidentidad.Text, genero, Me.cboestadocivil.Text, Me.cbodepartamento.SelectedIndex, Me.rtbdireccion.Text)
                 Me.limpiar()
             End If
 
