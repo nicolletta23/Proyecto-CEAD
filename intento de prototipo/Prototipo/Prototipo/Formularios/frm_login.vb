@@ -9,6 +9,7 @@
 
         'CONEXION DE LAS DEMAS
         'conectar("AQUI DEBEN PONER NOMBRE DE SU SERVIDOR", "CEAD")
+        conectar("LASTE", "CEAD")
     End Sub
 
     Private Sub OK_Click(sender As Object, e As EventArgs) Handles OK.Click
@@ -30,10 +31,18 @@
 
     End Sub
 
-    Private Sub Cancel_Click(sender As Object, e As EventArgs) Handles Cancel.Click
+    Private Sub Cancel_Click(sender As Object, e As EventArgs)
         Me.textusuario.Clear()
         Me.textclave.Clear()
 
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        My.Forms.frm_cambio_contraseña.Show()
     End Sub
 End Class
 

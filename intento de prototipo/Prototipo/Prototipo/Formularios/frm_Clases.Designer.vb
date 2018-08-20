@@ -22,6 +22,7 @@ Partial Class frm_Clases
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Clases))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.cb_modalidad = New System.Windows.Forms.ComboBox()
@@ -34,29 +35,35 @@ Partial Class frm_Clases
         Me.btn_eliminar = New System.Windows.Forms.Button()
         Me.ID = New System.Windows.Forms.Label()
         Me.txt_idclase = New System.Windows.Forms.TextBox()
+        Me.Clases = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DeepSkyBlue
         Me.Label1.Location = New System.Drawing.Point(34, 68)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 13)
+        Me.Label1.Size = New System.Drawing.Size(85, 18)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Modalidad"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(51, 101)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.Label2.Location = New System.Drawing.Point(61, 100)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(33, 13)
+        Me.Label2.Size = New System.Drawing.Size(51, 18)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Clase"
         '
         'cb_modalidad
         '
+        Me.cb_modalidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.cb_modalidad.FormattingEnabled = True
         Me.cb_modalidad.Location = New System.Drawing.Point(120, 65)
         Me.cb_modalidad.Name = "cb_modalidad"
@@ -65,6 +72,7 @@ Partial Class frm_Clases
         '
         'txt_clase
         '
+        Me.txt_clase.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txt_clase.Location = New System.Drawing.Point(120, 98)
         Me.txt_clase.Name = "txt_clase"
         Me.txt_clase.Size = New System.Drawing.Size(243, 20)
@@ -73,14 +81,17 @@ Partial Class frm_Clases
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(40, 137)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.Label3.Location = New System.Drawing.Point(38, 133)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(50, 13)
+        Me.Label3.Size = New System.Drawing.Size(76, 18)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Duracion"
         '
         'cb_duracion
         '
+        Me.cb_duracion.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.cb_duracion.FormattingEnabled = True
         Me.cb_duracion.Location = New System.Drawing.Point(120, 134)
         Me.cb_duracion.Name = "cb_duracion"
@@ -125,24 +136,39 @@ Partial Class frm_Clases
         'ID
         '
         Me.ID.AutoSize = True
-        Me.ID.Location = New System.Drawing.Point(66, 34)
+        Me.ID.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ID.ForeColor = System.Drawing.Color.DeepSkyBlue
+        Me.ID.Location = New System.Drawing.Point(78, 33)
         Me.ID.Name = "ID"
-        Me.ID.Size = New System.Drawing.Size(18, 13)
+        Me.ID.Size = New System.Drawing.Size(24, 18)
         Me.ID.TabIndex = 10
         Me.ID.Text = "ID"
         '
         'txt_idclase
         '
+        Me.txt_idclase.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.txt_idclase.Location = New System.Drawing.Point(120, 31)
         Me.txt_idclase.Name = "txt_idclase"
         Me.txt_idclase.Size = New System.Drawing.Size(100, 20)
         Me.txt_idclase.TabIndex = 11
         '
+        'Clases
+        '
+        Me.Clases.AutoSize = True
+        Me.Clases.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Clases.Location = New System.Drawing.Point(324, 9)
+        Me.Clases.Name = "Clases"
+        Me.Clases.Size = New System.Drawing.Size(61, 19)
+        Me.Clases.TabIndex = 12
+        Me.Clases.Text = "Clases"
+        '
         'frm_Clases
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(682, 443)
+        Me.Controls.Add(Me.Clases)
         Me.Controls.Add(Me.txt_idclase)
         Me.Controls.Add(Me.ID)
         Me.Controls.Add(Me.btn_eliminar)
@@ -155,8 +181,8 @@ Partial Class frm_Clases
         Me.Controls.Add(Me.cb_modalidad)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frm_Clases"
-        Me.Text = "Registro de Clases"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -175,4 +201,5 @@ Partial Class frm_Clases
     Friend WithEvents btn_eliminar As Button
     Friend WithEvents ID As Label
     Friend WithEvents txt_idclase As TextBox
+    Friend WithEvents Clases As Label
 End Class

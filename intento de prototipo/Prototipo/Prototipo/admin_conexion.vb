@@ -37,8 +37,6 @@ Module admin_conexion
 
 
     End Sub
-
-
     Public Function accede_usuario(ByVal Usuario As String, ByVal Psw As String) As Boolean
         Try
             adapterusuarios = New SqlDataAdapter("Select * from Usuarios", conexion)
@@ -53,14 +51,14 @@ Module admin_conexion
                     nombreusuario = fila("Usuario")
                     Return True
                 End If
-
+                'Return True
             Next
             Return False
 
         Catch ex As Exception
             MsgBox(ex.Message, MsgBoxStyle.Critical)
         End Try
-        Exit Function
+        'Exit Function
     End Function
 
 

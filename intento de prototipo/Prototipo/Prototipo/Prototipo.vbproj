@@ -13,7 +13,8 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <PublishUrl>publicar\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Keren\Documents\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -25,8 +26,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -61,6 +62,18 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B8B66449A59347B3455DCAA3551262EADF56C29E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Prototipo_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -88,6 +101,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin_conexion.vb" />
+    <Compile Include="Formularios\cobro_matricula.Designer.vb">
+      <DependentUpon>cobro_matricula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\cobro_matricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\cobro_mensualidad.Designer.vb">
+      <DependentUpon>cobro_mensualidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\cobro_mensualidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\departamento.Designer.vb">
+      <DependentUpon>departamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\departamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\duracion_clase.Designer.vb">
+      <DependentUpon>duracion_clase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\duracion_clase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\estado_civil.Designer.vb">
+      <DependentUpon>estado_civil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\estado_civil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Estatus.Designer.vb">
+      <DependentUpon>Estatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Estatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\frm_Clases.Designer.vb">
       <DependentUpon>frm_Clases.vb</DependentUpon>
     </Compile>
@@ -168,6 +217,36 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Modulo.vb" />
+    <Compile Include="Formularios\estatus_pago.Designer.vb">
+      <DependentUpon>estatus_pago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\estatus_pago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\observaciones.Designer.vb">
+      <DependentUpon>observaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\observaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\periodo_academico.Designer.vb">
+      <DependentUpon>periodo_academico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\periodo_academico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\planilla.Designer.vb">
+      <DependentUpon>planilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\planilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\roles.Designer.vb">
+      <DependentUpon>roles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\roles.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -185,6 +264,24 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularios\cobro_matricula.resx">
+      <DependentUpon>cobro_matricula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\cobro_mensualidad.resx">
+      <DependentUpon>cobro_mensualidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\departamento.resx">
+      <DependentUpon>departamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\duracion_clase.resx">
+      <DependentUpon>duracion_clase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\estado_civil.resx">
+      <DependentUpon>estado_civil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Estatus.resx">
+      <DependentUpon>Estatus.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frm_Clases.resx">
       <DependentUpon>frm_Clases.vb</DependentUpon>
     </EmbeddedResource>
@@ -224,6 +321,21 @@
     <EmbeddedResource Include="Formularios\MDI.resx">
       <DependentUpon>MDI.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\estatus_pago.resx">
+      <DependentUpon>estatus_pago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\observaciones.resx">
+      <DependentUpon>observaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\periodo_academico.resx">
+      <DependentUpon>periodo_academico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\planilla.resx">
+      <DependentUpon>planilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\roles.resx">
+      <DependentUpon>roles.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -244,6 +356,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Prototipo_ClaveTemporal.pfx" />
     <None Include="Resources\academia.png" />
   </ItemGroup>
   <ItemGroup>
@@ -257,6 +370,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceadma.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -53,3 +53,30 @@ C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de pro
 C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Parametros.resources
 C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Secciones.resources
 C:\Users\Nicolle\Documents\Analisis y Diseño\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.MDI.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe.config
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.exe
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.xml
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.pdb
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.vbprojResolveAssemblyReference.cache
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Clases.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_genero.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Matricula.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_login.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_cambio_contraseña.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Modalidad.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Parametros.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_principal.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_registro_alumnos.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_registro_Personal.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_registro_usuarios.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.frm_Secciones.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.MDI.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.Resources.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.vbproj.GenerateResource.Cache
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.exe
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.pdb
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\bin\Debug\Prototipo.xml
+C:\Users\Keren\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.planilla.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.cobro_matricula.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.cobro_mensualidad.resources
+C:\Users\luna\Desktop\Proyecto-CEAD\trunk\intento de prototipo\Prototipo\Prototipo\obj\Debug\Prototipo.planilla.resources

@@ -5,7 +5,7 @@
                 MsgBox("Tiene que seleccionar un ROll!!", MsgBoxStyle.Exclamation)
                 Exit Sub
             Else
-                inserta_usuario(Me.cbonombreusuario.SelectedValue, Me.textingreseusuario.Text, Me.textcontraseña.Text, Me.cboroll.SelectedIndex)
+                '' inserta_usuario(Me.cbonombreusuario.SelectedValue, Me.textingreseusuario.Text, Me.textcontraseña.Text, Me.cboroll.SelectedIndex)
                 Me.btnlimpiar.PerformClick()
 
             End If
